@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.1594137e.css",
+    "main.js": "/home/static/js/main.c6d6743e.js",
+    "static/media/visualizer.png": "/home/static/media/visualizer.5b37f0b241fd28d86faf.png",
+    "static/media/invoicer.png": "/home/static/media/invoicer.2649aac72e249732751b.png",
+    "static/media/gameoflife.png": "/home/static/media/gameoflife.1b61dd8d87b0d31bb824.png",
+    "static/media/calibre-lg.woff2": "/home/static/media/calibre-lg.94fc73852539d6733dc0.woff2",
+    "static/media/calibre-md.woff2": "/home/static/media/calibre-md.568dce56f869a519a015.woff2",
+    "static/media/profile.svg": "/home/static/media/profile.5deb3ff6736f0860d077eebd7c03d175.svg",
+    "index.html": "/home/index.html",
+    "main.1594137e.css.map": "/home/static/css/main.1594137e.css.map",
+    "main.c6d6743e.js.map": "/home/static/js/main.c6d6743e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1594137e.css",
+    "static/js/main.c6d6743e.js"
+  ]
+}
