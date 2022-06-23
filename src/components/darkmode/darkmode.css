@@ -1,0 +1,25 @@
+.darkmode__btn {
+    border: none;
+    background: transparent;
+    padding: .9rem;
+    border-radius: 50%;
+    color: rgb(243 244 246);
+    font-size: 1.3rem;
+    display: flex;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.darkmode__btn:hover {
+    color: var(--primary);
+    background: rgb(47 48 58 / 64%);
+}
+
+
+@media screen and (max-width: 768px){
+    .darkmode__btn {
+        font-size: 1rem;
+        padding: .7rem;
+    }
+}

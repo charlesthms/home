@@ -1,0 +1,130 @@
+#terminal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--light);
+    height: 100vh;
+}
+
+.terminal__container {
+    position: relative;
+}
+
+.terminal__container > h1 {
+    margin: 2rem 0;
+}
+
+.terminal__topbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #444554;
+    color: rgb(243 244 246);
+    padding: .7rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.terminal__controls {
+    display: flex;
+}
+
+.terminal__controls .control {
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.red {
+    background-color: #F5544D;
+}
+
+.orange {
+    background-color: #FABD2F;
+}
+
+.green {
+    background-color: #47D043;
+}
+
+/* ================== FIELD ================== */
+
+.terminal__field {
+    cursor: text;
+    width: 100%;
+    height: 65vh;
+    background-color: #33343c59;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    backdrop-filter: blur(10px);
+    overflow: scroll;
+    padding: 1rem;
+    box-shadow: 0 10px 30px -14px #11121a;;
+}
+
+.terminal__field .type {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.terminal__field input {
+    border: none;
+    background-color: unset;
+    color: #07AFFF;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.terminal__field input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: unset;
+}
+
+.terminal__field .path {
+    color: #9F55FF;
+    transition: .1s ease-in-out;
+}
+
+.terminal__field .path .time {
+    color: #646464e8;
+}
+
+.terminal__field .path span {
+    color: #1EB57D;
+}
+
+.terminal__field .icon {
+    color: #5AD786;
+    padding-right:  1rem;
+}
+
+.terminal__field .init {
+    color: #E4E4E4;
+    margin: .5rem 0;
+}
+
+.terminal__field .help {
+    color: #07AFFF;
+}
+
+.terminal__field .command {
+    color: #07AFFF;
+    line-height: 1.8rem;
+}
+
+.terminal__field .command .txt {
+    color: #E4E4E4;
+    padding: 1.5rem;
+}
